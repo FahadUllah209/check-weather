@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="search-city">
+            <input type="text" placeholder="Enter City Name" id="input-city">
+            <button id="btn"><img src="images/magnifying-glass.png" alt="" ></button>
+        </div>
+
+        <div class="weather-details">
+            <div class="weather-status">
+                <img src="images/clear-sky.png" alt="" id="image">
+                <p id="tem">16°C</p>
+                <p id="weather">Rain</p>
+                <p id="city">Islamabad</p>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="speed">
+                <img src="images/humidity.png" alt="">
+                <div>
+                    <p id="humidity">43%</p>
+                    <p>Humadity</p>
+                </div>
+
+            </div>
+            <div class="speed">
+                <img src="images/wind.png" alt="">
+                <div>
+                    <p id="wind">43km/h</p>
+                    <p>Wind</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
