@@ -37,6 +37,12 @@ image.src = "images/sunny.png"
  else if(data.weather[0].main == "Clear") {
 image.src = "images/clear-sky.png"
  }
+ else if(data.weather[0].main == "Smoke") {
+image.src = "images/smoke.png"
+ }
+ else if(data.weather[0].main == "Haze") {
+image.src = "images/haze.png"
+ }
     
 }
 
